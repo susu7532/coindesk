@@ -1,0 +1,13 @@
+
+
+	CREATE TABLE FOREIGN_CURRENCY (
+	  id INT AUTO_INCREMENT  PRIMARY KEY,
+	  currency VARCHAR(20) ,
+	  currency_Chinese VARCHAR(20) ,
+	  exchange_Rate VARCHAR(20) ,
+	  update_Date TIMESTAMP
+	);
+	
+	
+
+CREATE INDEX CURRENCY ON FOREIGN_CURRENCY (CURRENCY);
